@@ -1,0 +1,11 @@
+Programmer Documentation
+
+GoodFoodGoneBad contains five activities with designations: Main, Homescreen, Log-In, Profile, and  New Item. 
+The Sign-In activity implements a FacebookFragment that extends the Fragment interface to allow the user to use
+their facebook credentials and give the application their name, email, and phone number information, which are 
+returned in JSON format.
+The returned JSON object is parsed and the Profile Activity’s layout is populated with the information.
+The New Item Activity allows a user to select the expiration date through a calendar and the purchase date is 
+stored as the current date.
+
+

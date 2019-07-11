@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:layout_width="match_parent"
+    android:id="@+id/item_holder_linear_layout"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/item_name_text_view"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTintMode="src_atop"
+        />
+
+    <TextView
+        android:id="@+id/exp_date_text_view"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout>

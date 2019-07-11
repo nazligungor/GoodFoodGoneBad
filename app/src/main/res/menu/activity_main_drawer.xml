@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_foodlog"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Food Log" />-->
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profilecircle"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="Sign Out" />
+    </group>
+
+</menu>

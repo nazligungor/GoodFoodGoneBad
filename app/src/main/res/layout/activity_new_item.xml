@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_item_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:layout_margin="10dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/activity_new_item_image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/poke_text"/>
+
+    <TextView
+        android:id="@+id/activity_item_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_brand_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/activity_expiration_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/activity_purchase_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+</LinearLayout>

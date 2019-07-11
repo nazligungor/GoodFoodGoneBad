@@ -1,0 +1,19 @@
+User Documentation
+
+What is GoodFoodGoneBad?
+
+GoodFoodGoneBad is an application in which you can log different food items and 
+track their expiration date. To use the application you have to log in with your
+Facebook credentials. 
+
+After logging in, you navigate through the app using the menu. You can visit your
+profile. There you will find the information inherited from Facebook. To add a new
+item to your log, you can use the Add Item button in the navigation menu. When you
+add a new item, the app will ask for its name, brand and expiration date. It will
+save the date/time that you logged the item as the purchase date. To view all the 
+items you logged in the order of expiration date, you can click Food Log from the
+navigation menu. When you are in the Food Log, you will be ablw to view the name
+and expiration date of an item. If you want to see the other details, you can click
+on the item and it will take you to a new window with all details (brand and
+purchase/log date). Lastly, to sign out you can go back to the profile page and
+sign out using the provided button.
